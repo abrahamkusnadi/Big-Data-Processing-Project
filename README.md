@@ -62,5 +62,31 @@ print(df.info())
 ```
 
 ### 2. Data Cleaning
+```python
+# Check missing values and duplicates
+print(df.isnull().sum())
+print(df.duplicated().sum())
 
----
+# Drop irrelevant columns
+df = df.drop(columns=["key"])
+
+# Convert streams to numeric
+df["streams"] = pd.to_numeric(df["streams"], errors="coerce")
+```
+➡️ We removed irrelevant columns, handled missing values, and converted streams into numeric format.
+
+### 3. Exploratory Data Analysis (EDA)
+```python
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Boxplot to detect outliers
+sns.boxplot(x=df["danceability_%"])
+plt.show()
+
+# Artist popularity trend
+top_artists = df.groupby("artist(s)_name")["streams"].sum().nlargest(5)
+top_artists.plot(kind="barh")
+plt.show()
+```
