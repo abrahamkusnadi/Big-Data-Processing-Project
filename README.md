@@ -132,34 +132,29 @@ plt.show()
 ➡️ PCA reduces dimensions into 2D for visualization. Each color represents a different cluster of songs.
 
 --- 
-📊 Results
-
-6 distinct clusters were identified, each representing unique musical styles.
-
-The cluster "Mellow & Reflective Acoustic Pieces" had the highest average streams.
-
-Other popular clusters: Intense & Brooding Rhythmic Tracks, Upbeat & Joyful Dance Hits.
-
-Example representative songs per cluster: Shape of You, Blinding Lights, Someone You Loved.
-
----
-
-📝 Conclusion
-
-K-Means clustering successfully grouped songs based on audio characteristics.
-
-Popularity varies significantly across clusters, with mellow acoustic tracks attracting the most streams.
-
-This project demonstrates the potential of unsupervised learning in music segmentation and recommendation systems.
+## 📊 Results
+- **6 distinct clusters** were identified, each representing unique musical styles.  
+- The cluster **"Mellow & Reflective Acoustic Pieces"** had the highest average streams.  
+- Other popular clusters include:  
+  - *Intense & Brooding Rhythmic Tracks*  
+  - *Upbeat & Joyful Dance Hits*  
+- **Representative songs per cluster:**  
+  - *Shape of You*  
+  - *Blinding Lights*  
+  - *Someone You Loved*  
 
 ---
 
-💡 Future Work
+## 📝 Conclusion
+- K-Means clustering successfully grouped songs based on audio characteristics.  
+- Popularity varies significantly across clusters, with mellow acoustic tracks attracting the most streams.  
+- This project demonstrates the potential of **unsupervised learning** in music segmentation and recommendation systems.  
 
-Include more metadata (lyrics, genres) for deeper insights.
+---
 
-Evaluate clustering quality with metrics (e.g., silhouette score).
+## 💡 Future Work
+- Include more metadata (**lyrics, genres**) for deeper insights.  
+- Evaluate clustering quality with metrics (e.g., **silhouette score**).  
+- Experiment with alternative clustering algorithms (e.g., **Hierarchical Clustering**).  
+- Extend analysis for building **playlist recommendation systems**.  
 
-Experiment with alternative clustering algorithms (e.g., Hierarchical Clustering).
-
-Extend analysis for building playlist recommendation syste
