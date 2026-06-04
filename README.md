@@ -12,6 +12,11 @@ This repository contains the final project for the **Big Data Processing** cours
 
 **Class:** LD01 | **Lecturer:** Fepri Putra Panghurian, S.Kom, M.T.I. | **Academic Year:** 2024/2025  
 
+## 🎯 My Role & Contributions
+In this collaborative project, I took on a dual role as **Technical Co-Lead** and **Project Coordinator**:
+- **Data Engineering & Analysis:** Collaborated closely with Dominikus Sebastian Ramli to architect and write the core Python codebase. I handled the end-to-end data pipeline, which included data preprocessing (handling null values and dropping irrelevant columns), conducting Exploratory Data Analysis (generating boxplots and bar charts), and engineering the K-Means clustering model to extract actionable insights.
+- **Project Coordination:** Managed project timelines and delegated tasks to ensure all deliverables were completed and submitted punctually. I also orchestrated the team's final presentation strategy to ensure our data insights were communicated clearly and effectively to the audience.
+
 ## 📌 Objectives
 - Analyze the correlation between audio attributes (BPM, energy, danceability, etc.) and song popularity.  
 - Cluster songs into different groups using **K-Means** based on audio features.  
